@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Cajero Automático</title>
+</head>
+<body>
+    <div class="cajero">
+        <h1>Cajero Automático</h1>
+        <p>Saldo actual: $10,000.00</p>
+        <button id="retirarBtn">1) Retirar dinero</button>
+        <button id="depositosBtn">2) Hacer depósitos</button>
+        <button id="saldoBtn">3) Consultar saldo</button>
+        <button id="quejasBtn">4) Quejas</button>
+        <button id="movimientosBtn">5) Ver últimos movimientos</button>
+        <button id="salirBtn">9) Salir del cajero</button>
+    </div>
+
+    
+        <div class="modal">
+            <span id="closeBtn" class="close-btn">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="modalContent"></div>
+        </div>
+    
+
+    <script src="/atm.js"></script>
+</body>
+</html>
